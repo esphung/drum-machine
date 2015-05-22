@@ -9,5 +9,5 @@
 
 protocol MetronomeDelegate {
     func metronomeTick()
-}
+} // end metro delegate
 

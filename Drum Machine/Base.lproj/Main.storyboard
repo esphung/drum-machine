@@ -8,7 +8,7 @@
         <!--Drum Machine-->
         <scene sceneID="c7V-aQ-cHB">
             <objects>
-                <viewController id="nC3-py-3ia" sceneMemberID="viewController">
+                <viewController id="nC3-py-3ia" customClass="DrumMachineViewController" customModule="Drum_Machine" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZMB-Fl-f5S"/>
                         <viewControllerLayoutGuide type="bottom" id="4Ym-zT-j30"/>
@@ -16,13 +16,96 @@
                     <view key="view" contentMode="scaleToFill" id="dJE-4L-C1S">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="300" affinity="minY"/>
+                            <userLayoutGuide location="300" affinity="minX"/>
+                        </userGuides>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs1-Kl-mab">
+                                <rect key="frame" x="220" y="28" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad002">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad002Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="rpV-hn-m92"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-qJ-dpb">
+                                <rect key="frame" x="410" y="28" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad003">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad003Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="1OT-gC-uWy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hy-Tl-UK7">
+                                <rect key="frame" x="34" y="28" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad001">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad001Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="Yue-Bq-p0H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaV-aB-exF">
+                                <rect key="frame" x="410" y="166" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad006">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad006Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="0pj-XA-FQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-e4-7mL">
+                                <rect key="frame" x="34" y="166" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad004">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad004Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="7pW-lA-bSF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-sK-Psa">
+                                <rect key="frame" x="220" y="166" width="160" height="130"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad005">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad005Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="b2J-Wj-xne"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RYO-sK-Psa" firstAttribute="leading" secondItem="t5e-e4-7mL" secondAttribute="trailing" constant="26" id="0gt-B1-ruU"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="trailing" secondItem="LaV-aB-exF" secondAttribute="trailing" id="2R2-qw-aBF"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="gs1-Kl-mab" secondAttribute="trailing" constant="30" id="7UD-gn-RMW"/>
+                            <constraint firstItem="LaV-aB-exF" firstAttribute="leading" secondItem="RYO-sK-Psa" secondAttribute="trailing" constant="30" id="8Me-vA-IeT"/>
+                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="18" id="8vm-cQ-ZWh"/>
+                            <constraint firstItem="LaV-aB-exF" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="394" id="Ipd-91-i3I"/>
+                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="5hy-Tl-UK7" secondAttribute="leading" id="Ker-6D-cgt"/>
+                            <constraint firstAttribute="trailing" secondItem="LaV-aB-exF" secondAttribute="trailing" constant="30" id="Rcl-aO-MtM"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="leading" secondItem="5hy-Tl-UK7" secondAttribute="trailing" constant="26" id="hMd-9F-1bN"/>
+                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leading" constant="34" id="hvm-Kt-mgh"/>
+                            <constraint firstAttribute="centerX" secondItem="gs1-Kl-mab" secondAttribute="centerX" id="k2m-To-W7z"/>
+                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leading" constant="34" id="ouC-uJ-dJC"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="394" id="qvm-oF-BIW"/>
+                            <constraint firstAttribute="centerX" secondItem="RYO-sK-Psa" secondAttribute="centerX" id="rIh-oB-feK"/>
+                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="18" id="xDJ-a6-PkH"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Drum Machine" image="drum.png" id="4Bm-Ca-ZHk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e1b-8u-oOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="271.875" y="320.07042253521126"/>
+            <point key="canvasLocation" x="271" y="320"/>
         </scene>
         <!--Metronome-->
         <scene sceneID="YaH-rO-lVw">
@@ -43,7 +126,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set BPM (Default is 60 bpm)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEK-q8-nbz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set BPM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEK-q8-nbz">
                                 <rect key="frame" x="66" y="59" width="469" height="21"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>

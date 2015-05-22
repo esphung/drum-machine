@@ -12,20 +12,21 @@ import AVFoundation
 
 
 class MetronomeViewController: UIViewController, MetronomeDelegate {
-    
-    
+
+
     // instance vars
-    var metronome: MetronomeModel = MetronomeModel()
-    var audioPlayer = AVAudioPlayer()
-    @IBOutlet weak var metroBoolLblTxt: UILabel!
-    @IBOutlet weak var metroBoolSwitch: UISegmentedControl!
-    required init(coder aDecoder: NSCoder){
-        super.init(coder: aDecoder)
-    } // end initialize
-    
+		var metronome: MetronomeModel = MetronomeModel()
+		var audioPlayer = AVAudioPlayer()
+		@IBOutlet weak var metroBoolLblTxt: UILabel!
+		@IBOutlet weak var metroBoolSwitch: UISegmentedControl!
+		required init(coder aDecoder: NSCoder){
+			super.init(coder: aDecoder)
+		} // end initialize
+
+    // view ready function
     override func viewDidLoad() {
         metronome.delegate = self
-        var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("tick",ofType: "mp3")!)
+        var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("pop",ofType: "aiff")!)
         var error:NSError?
         audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
         audioPlayer.prepareToPlay()
@@ -35,12 +36,12 @@ class MetronomeViewController: UIViewController, MetronomeDelegate {
     func metronomeTick() {
         //println("test in controller")
         audioPlayer.play()
-        
+
     } // end metronome output audio
-    
-    
-    
-    
+
+
+
+
     @IBAction func metroSwitchAction(sender: UISegmentedControl) {
         switch metroBoolSwitch.selectedSegmentIndex{
         case 0:
@@ -55,9 +56,9 @@ class MetronomeViewController: UIViewController, MetronomeDelegate {
     }// end metro switch action
 
 
-    
-    
-    
-    
-    
+
+
+
+
+
 } // end metronome vc class def
