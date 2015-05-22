@@ -89,6 +89,7 @@
 		F45CBC0B1B0EF78100812981 /* Tom L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tom L.wav"; sourceTree = "<group>"; };
 		F45CBC0C1B0EF78100812981 /* Tom M.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tom M.wav"; sourceTree = "<group>"; };
 		F45CBC1F1B0EF7FB00812981 /* hatclosed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hatclosed.wav; sourceTree = "<group>"; };
+		F45CBC221B0F041500812981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F4CA0EBB1B0ED60700741790 /* pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = pop.aiff; sourceTree = "<group>"; };
 		F4CA0EBD1B0ED6DD00741790 /* 300x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300x250.png; sourceTree = "<group>"; };
 		F4CA0EBF1B0EE14300741790 /* DrumMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumMachineViewController.swift; sourceTree = "<group>"; };
@@ -404,6 +405,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C4F42C301A27E21900D38EE3 /* Base */,
+				F45CBC221B0F041500812981 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

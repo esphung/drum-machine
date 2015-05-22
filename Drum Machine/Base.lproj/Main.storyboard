@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y57-AX-dVh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,24 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <userGuides>
                             <userLayoutGuide location="300" affinity="minY"/>
-                            <userLayoutGuide location="299" affinity="minX"/>
+                            <userLayoutGuide location="300" affinity="minX"/>
                         </userGuides>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-qJ-dpb">
-                                <rect key="frame" x="410" y="28" width="156" height="249"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
-                                </accessibility>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Pad003" image="300x250.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="pad003Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="1OT-gC-uWy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hy-Tl-UK7">
-                                <rect key="frame" x="34" y="28" width="160" height="249"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hy-Tl-UK7">
+                                <rect key="frame" x="16" y="28" width="150" height="125"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
                                 </accessibility>
@@ -48,34 +34,8 @@
                                     <action selector="pad001Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="Yue-Bq-p0H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaV-aB-exF">
-                                <rect key="frame" x="410" y="302" width="156" height="241"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
-                                </accessibility>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Pad006" image="300x250.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="pad006Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="0pj-XA-FQI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-e4-7mL">
-                                <rect key="frame" x="34" y="302" width="160" height="241"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
-                                </accessibility>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Pad004" image="300x250.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="pad004Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="7pW-lA-bSF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-sK-Psa">
-                                <rect key="frame" x="220" y="302" width="160" height="241"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-sK-Psa">
+                                <rect key="frame" x="212" y="237" width="150" height="125"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
                                 </accessibility>
@@ -87,8 +47,34 @@
                                     <action selector="pad005Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="b2J-Wj-xne"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs1-Kl-mab">
-                                <rect key="frame" x="220" y="28" width="160" height="250"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfQ-qJ-dpb">
+                                <rect key="frame" x="408" y="28" width="150" height="125"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
+                                </accessibility>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad003" image="300x250.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad003Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="1OT-gC-uWy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaV-aB-exF">
+                                <rect key="frame" x="408" y="237" width="150" height="125"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
+                                </accessibility>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad006" image="300x250.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad006Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="0pj-XA-FQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs1-Kl-mab">
+                                <rect key="frame" x="212" y="28" width="150" height="125"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
                                 </accessibility>
@@ -96,59 +82,119 @@
                                 <state key="normal" title="Pad002" image="300x250.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="28" width="150" height="125"/>
+                                </variation>
                                 <connections>
                                     <action selector="pad002Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="rpV-hn-m92"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-e4-7mL">
+                                <rect key="frame" x="16" y="237" width="150" height="125"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES" playsSound="YES"/>
+                                </accessibility>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pad004" image="300x250.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pad004Hit:" destination="nC3-py-3ia" eventType="touchUpInside" id="7pW-lA-bSF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="top" secondItem="gs1-Kl-mab" secondAttribute="top" id="0AH-gD-ZpC"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="LaV-aB-exF" secondAttribute="trailing" constant="-156" id="0IN-La-HVx"/>
-                            <constraint firstItem="RYO-sK-Psa" firstAttribute="leading" secondItem="t5e-e4-7mL" secondAttribute="trailing" constant="26" id="0gt-B1-ruU"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="top" secondItem="5hy-Tl-UK7" secondAttribute="bottom" constant="25" id="15C-Gb-emD"/>
-                            <constraint firstItem="LaV-aB-exF" firstAttribute="leading" secondItem="RYO-sK-Psa" secondAttribute="trailing" constant="30" id="8Me-vA-IeT"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="firstBaseline" secondItem="5hy-Tl-UK7" secondAttribute="firstBaseline" id="B6y-Ut-fOj"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="width" secondItem="LaV-aB-exF" secondAttribute="width" id="Cag-Mf-qdh"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="top" secondItem="5hy-Tl-UK7" secondAttribute="bottom" constant="25" id="DDE-up-97R"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="baseline" secondItem="IfQ-qJ-dpb" secondAttribute="baseline" id="Fbo-9P-phC"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="gs1-Kl-mab" secondAttribute="trailing" constant="30" id="I7F-Xz-EaT"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="trailing" secondItem="LaV-aB-exF" secondAttribute="trailing" id="IGb-hq-7cO"/>
-                            <constraint firstItem="LaV-aB-exF" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="394" id="Ipd-91-i3I"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="height" secondItem="5hy-Tl-UK7" secondAttribute="height" constant="-8" id="JUC-jx-9qV"/>
-                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="LaV-aB-exF" secondAttribute="bottom" constant="8" id="LJZ-2M-mFw"/>
-                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="t5e-e4-7mL" secondAttribute="bottom" constant="8" id="N5C-KB-sJ2"/>
-                            <constraint firstItem="RYO-sK-Psa" firstAttribute="top" secondItem="gs1-Kl-mab" secondAttribute="bottom" constant="24" id="NSX-W7-MKA"/>
-                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="leading" secondItem="t5e-e4-7mL" secondAttribute="leading" id="Qis-Kl-2gH"/>
-                            <constraint firstAttribute="trailing" secondItem="LaV-aB-exF" secondAttribute="trailing" constant="34" id="Rcl-aO-MtM"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="IfQ-qJ-dpb" secondAttribute="height" constant="1" id="SWS-hY-gKr"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="firstBaseline" secondItem="gs1-Kl-mab" secondAttribute="firstBaseline" id="TsC-RP-4JA"/>
-                            <constraint firstItem="LaV-aB-exF" firstAttribute="top" secondItem="IfQ-qJ-dpb" secondAttribute="bottom" constant="25" id="VjT-8I-BeV"/>
-                            <constraint firstItem="LaV-aB-exF" firstAttribute="top" secondItem="IfQ-qJ-dpb" secondAttribute="bottom" constant="25" id="YUX-T9-5wK"/>
-                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="LaV-aB-exF" secondAttribute="bottom" constant="8" id="aL1-4X-E3f"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="bottom" secondItem="5hy-Tl-UK7" secondAttribute="bottom" id="bBg-5g-eY8"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="RYO-sK-Psa" secondAttribute="width" id="cG2-yX-EeN"/>
-                            <constraint firstAttribute="centerX" secondItem="LaV-aB-exF" secondAttribute="centerX" constant="-188" id="dbm-sm-Tea"/>
-                            <constraint firstItem="RYO-sK-Psa" firstAttribute="top" secondItem="gs1-Kl-mab" secondAttribute="bottom" constant="24" id="eTQ-8f-ZzQ"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="RYO-sK-Psa" secondAttribute="width" id="fQQ-Sz-oq1"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="width" secondItem="LaV-aB-exF" secondAttribute="width" id="gJ8-6j-5aW"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="IfQ-qJ-dpb" secondAttribute="trailing" constant="18" id="gUS-Fh-6HI"/>
-                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="RYO-sK-Psa" secondAttribute="bottom" constant="8" id="hPo-cH-e8j"/>
-                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="top" secondItem="ZMB-Fl-f5S" secondAttribute="bottom" constant="8" symbolic="YES" id="jnM-XE-jLi"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="leading" secondItem="RYO-sK-Psa" secondAttribute="leading" id="kYf-QH-xus"/>
-                            <constraint firstAttribute="centerX" secondItem="t5e-e4-7mL" secondAttribute="centerX" constant="186" id="kpH-tL-xTe"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="leading" secondItem="5hy-Tl-UK7" secondAttribute="trailing" constant="26" id="lvn-Y6-Cv0"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="width" secondItem="LaV-aB-exF" secondAttribute="width" id="oCt-gT-oPs"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leading" constant="34" id="ouC-uJ-dJC"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="RYO-sK-Psa" secondAttribute="height" constant="9" id="owh-nU-1aY"/>
-                            <constraint firstAttribute="centerX" secondItem="RYO-sK-Psa" secondAttribute="centerX" id="rIh-oB-feK"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="height" secondItem="LaV-aB-exF" secondAttribute="height" constant="8" id="t3R-YO-Cln"/>
-                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="5hy-Tl-UK7" secondAttribute="width" id="ubL-iT-WqP"/>
-                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="LaV-aB-exF" secondAttribute="leading" id="wLz-lu-NF7"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" constant="18" id="xDJ-a6-PkH"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="width" secondItem="5hy-Tl-UK7" secondAttribute="width" id="yad-AT-Sup"/>
-                            <constraint firstItem="t5e-e4-7mL" firstAttribute="width" secondItem="5hy-Tl-UK7" secondAttribute="width" id="zxG-W3-bIE"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="5hy-Tl-UK7" secondAttribute="height" id="0Os-Q4-GYL"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="IfQ-qJ-dpb" secondAttribute="width" id="5IC-bq-SmQ"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="leading" secondItem="gs1-Kl-mab" secondAttribute="trailing" constant="59" id="9fA-zS-MmQ"/>
+                            <constraint firstItem="LaV-aB-exF" firstAttribute="trailing" secondItem="dJE-4L-C1S" secondAttribute="trailingMargin" id="9ix-ck-J9L"/>
+                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="RYO-sK-Psa" secondAttribute="bottom" constant="33" id="CjC-xs-og6"/>
+                            <constraint firstItem="RYO-sK-Psa" firstAttribute="top" secondItem="gs1-Kl-mab" secondAttribute="bottom" constant="40" id="HoI-d9-f2t"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="top" secondItem="ZMB-Fl-f5S" secondAttribute="bottom" constant="8" id="Kz3-D8-kwZ"/>
+                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="t5e-e4-7mL" secondAttribute="bottom" constant="33" id="Px2-eR-T4f"/>
+                            <constraint firstItem="LaV-aB-exF" firstAttribute="leading" secondItem="RYO-sK-Psa" secondAttribute="trailing" constant="59" id="QWS-9y-9aJ"/>
+                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" id="UfF-Bm-QN9"/>
+                            <constraint firstItem="t5e-e4-7mL" firstAttribute="top" secondItem="5hy-Tl-UK7" secondAttribute="bottom" constant="40" id="XgV-xV-2LQ"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="LaV-aB-exF" secondAttribute="height" id="a1V-0c-QPp"/>
+                            <constraint firstItem="t5e-e4-7mL" firstAttribute="leading" secondItem="dJE-4L-C1S" secondAttribute="leadingMargin" id="b4c-Nd-LII"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="IfQ-qJ-dpb" secondAttribute="height" id="c87-yG-IwB"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="RYO-sK-Psa" secondAttribute="width" id="dFM-hR-av6"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="RYO-sK-Psa" secondAttribute="height" id="dIR-XV-ZeK"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="height" secondItem="t5e-e4-7mL" secondAttribute="height" id="ehC-pZ-0ST"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="LaV-aB-exF" secondAttribute="width" id="f4o-Ul-vhz"/>
+                            <constraint firstItem="RYO-sK-Psa" firstAttribute="leading" secondItem="t5e-e4-7mL" secondAttribute="trailing" constant="59" id="gg3-Ey-7Ym"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="5hy-Tl-UK7" secondAttribute="width" id="hrV-Ja-QsT"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="trailing" secondItem="dJE-4L-C1S" secondAttribute="trailingMargin" id="jHI-dq-hhb"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="leading" secondItem="5hy-Tl-UK7" secondAttribute="trailing" constant="59" id="omZ-LA-UEv"/>
+                            <constraint firstItem="4Ym-zT-j30" firstAttribute="top" secondItem="LaV-aB-exF" secondAttribute="bottom" constant="33" id="oro-nD-6qE"/>
+                            <constraint firstItem="gs1-Kl-mab" firstAttribute="width" secondItem="t5e-e4-7mL" secondAttribute="width" id="qA3-dF-Q5f"/>
+                            <constraint firstItem="5hy-Tl-UK7" firstAttribute="top" secondItem="ZMB-Fl-f5S" secondAttribute="bottom" constant="8" id="t5e-0z-iR5"/>
+                            <constraint firstItem="IfQ-qJ-dpb" firstAttribute="top" secondItem="ZMB-Fl-f5S" secondAttribute="bottom" constant="8" id="u77-oO-WIl"/>
+                            <constraint firstItem="LaV-aB-exF" firstAttribute="top" secondItem="IfQ-qJ-dpb" secondAttribute="bottom" constant="40" id="wtg-0B-yLa"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UfF-Bm-QN9"/>
+                                <exclude reference="t5e-0z-iR5"/>
+                                <exclude reference="XgV-xV-2LQ"/>
+                                <exclude reference="b4c-Nd-LII"/>
+                                <exclude reference="0Os-Q4-GYL"/>
+                                <exclude reference="5IC-bq-SmQ"/>
+                                <exclude reference="Kz3-D8-kwZ"/>
+                                <exclude reference="a1V-0c-QPp"/>
+                                <exclude reference="c87-yG-IwB"/>
+                                <exclude reference="dFM-hR-av6"/>
+                                <exclude reference="dIR-XV-ZeK"/>
+                                <exclude reference="ehC-pZ-0ST"/>
+                                <exclude reference="f4o-Ul-vhz"/>
+                                <exclude reference="hrV-Ja-QsT"/>
+                                <exclude reference="omZ-LA-UEv"/>
+                                <exclude reference="qA3-dF-Q5f"/>
+                                <exclude reference="HoI-d9-f2t"/>
+                                <exclude reference="gg3-Ey-7Ym"/>
+                                <exclude reference="CjC-xs-og6"/>
+                                <exclude reference="Px2-eR-T4f"/>
+                                <exclude reference="oro-nD-6qE"/>
+                                <exclude reference="9fA-zS-MmQ"/>
+                                <exclude reference="jHI-dq-hhb"/>
+                                <exclude reference="u77-oO-WIl"/>
+                                <exclude reference="9ix-ck-J9L"/>
+                                <exclude reference="QWS-9y-9aJ"/>
+                                <exclude reference="wtg-0B-yLa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="UfF-Bm-QN9"/>
+                                <include reference="t5e-0z-iR5"/>
+                                <include reference="XgV-xV-2LQ"/>
+                                <include reference="b4c-Nd-LII"/>
+                                <include reference="0Os-Q4-GYL"/>
+                                <include reference="5IC-bq-SmQ"/>
+                                <include reference="Kz3-D8-kwZ"/>
+                                <include reference="a1V-0c-QPp"/>
+                                <include reference="c87-yG-IwB"/>
+                                <include reference="dFM-hR-av6"/>
+                                <include reference="dIR-XV-ZeK"/>
+                                <include reference="ehC-pZ-0ST"/>
+                                <include reference="f4o-Ul-vhz"/>
+                                <include reference="hrV-Ja-QsT"/>
+                                <include reference="omZ-LA-UEv"/>
+                                <include reference="qA3-dF-Q5f"/>
+                                <include reference="HoI-d9-f2t"/>
+                                <include reference="gg3-Ey-7Ym"/>
+                                <include reference="CjC-xs-og6"/>
+                                <include reference="Px2-eR-T4f"/>
+                                <include reference="oro-nD-6qE"/>
+                                <include reference="9fA-zS-MmQ"/>
+                                <include reference="jHI-dq-hhb"/>
+                                <include reference="u77-oO-WIl"/>
+                                <include reference="9ix-ck-J9L"/>
+                                <include reference="QWS-9y-9aJ"/>
+                                <include reference="wtg-0B-yLa"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Drum Machine" image="drum.png" id="4Bm-Ca-ZHk"/>
                 </viewController>

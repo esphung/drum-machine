@@ -1,0 +1,48 @@
+
+/* Class = "UITabBarItem"; title = "Drum Machine"; ObjectID = "4Bm-Ca-ZHk"; */
+"4Bm-Ca-ZHk.title" = "Drum Machine";
+
+/* Class = "UIButton"; normalTitle = "Pad001"; ObjectID = "5hy-Tl-UK7"; */
+"5hy-Tl-UK7.normalTitle" = "Pad001";
+
+/* Class = "UISegmentedControl"; BJx-q0-iaT.segmentTitles[0] = "2/4"; ObjectID = "BJx-q0-iaT"; */
+"BJx-q0-iaT.segmentTitles[0]" = "2/4";
+
+/* Class = "UISegmentedControl"; BJx-q0-iaT.segmentTitles[1] = "3/4"; ObjectID = "BJx-q0-iaT"; */
+"BJx-q0-iaT.segmentTitles[1]" = "3/4";
+
+/* Class = "UISegmentedControl"; BJx-q0-iaT.segmentTitles[2] = "4/4"; ObjectID = "BJx-q0-iaT"; */
+"BJx-q0-iaT.segmentTitles[2]" = "4/4";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "CmY-0F-lyC"; */
+"CmY-0F-lyC.text" = "...";
+
+/* Class = "UILabel"; text = "Set BPM"; ObjectID = "FEK-q8-nbz"; */
+"FEK-q8-nbz.text" = "Set BPM";
+
+/* Class = "UIButton"; normalTitle = "Pad003"; ObjectID = "IfQ-qJ-dpb"; */
+"IfQ-qJ-dpb.normalTitle" = "Pad003";
+
+/* Class = "UIButton"; normalTitle = "Pad006"; ObjectID = "LaV-aB-exF"; */
+"LaV-aB-exF.normalTitle" = "Pad006";
+
+/* Class = "UIButton"; normalTitle = "Pad005"; ObjectID = "RYO-sK-Psa"; */
+"RYO-sK-Psa.normalTitle" = "Pad005";
+
+/* Class = "UIButton"; normalTitle = "Pad002"; ObjectID = "gs1-Kl-mab"; */
+"gs1-Kl-mab.normalTitle" = "Pad002";
+
+/* Class = "UITabBarItem"; title = "Metronome"; ObjectID = "h7f-hY-6O4"; */
+"h7f-hY-6O4.title" = "Metronome";
+
+/* Class = "UISegmentedControl"; slo-Ln-76f.segmentTitles[0] = "Stop"; ObjectID = "slo-Ln-76f"; */
+"slo-Ln-76f.segmentTitles[0]" = "Stop";
+
+/* Class = "UISegmentedControl"; slo-Ln-76f.segmentTitles[1] = "Start"; ObjectID = "slo-Ln-76f"; */
+"slo-Ln-76f.segmentTitles[1]" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Pad004"; ObjectID = "t5e-e4-7mL"; */
+"t5e-e4-7mL.normalTitle" = "Pad004";
+
+/* Class = "UILabel"; text = "Time Signature"; ObjectID = "wQJ-e3-yNj"; */
+"wQJ-e3-yNj.text" = "Time Signature";
