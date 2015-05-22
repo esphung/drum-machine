@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		C40ACE781A339BFF001F1408 /* MetronomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeModel.swift; sourceTree = "<group>"; };
-		C40ACE7B1A33A1FE001F1408 /* MetronomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
+		C40ACE7B1A33A1FE001F1408 /* MetronomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetronomeViewController.swift; path = "/Users/home/Desktop/drum-machine/Drum Machine/MetronomeViewController.swift"; sourceTree = "<absolute>"; };
 		C4D335791A34AB0300E0C5A3 /* MetronomeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeDelegate.swift; sourceTree = "<group>"; };
 		C4D3357C1A34B24700E0C5A3 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
 		C4D335801A35456600E0C5A3 /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
