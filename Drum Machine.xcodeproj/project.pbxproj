@@ -19,6 +19,24 @@
 		C4F42C601A27EB3C00D38EE3 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F42C5D1A27EB3C00D38EE3 /* about.png */; };
 		C4F42C621A27EB3C00D38EE3 /* metronome.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F42C5F1A27EB3C00D38EE3 /* metronome.png */; };
 		C4F42C661A27EE3400D38EE3 /* drum.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F42C651A27EE3400D38EE3 /* drum.png */; };
+		F45CBC0D1B0EF78100812981 /* Bassdrum-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBBFB1B0EF78100812981 /* Bassdrum-01.wav */; };
+		F45CBC0E1B0EF78100812981 /* Bassdrum-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBBFC1B0EF78100812981 /* Bassdrum-02.wav */; };
+		F45CBC0F1B0EF78100812981 /* Bassdrum-03.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBBFD1B0EF78100812981 /* Bassdrum-03.wav */; };
+		F45CBC101B0EF78100812981 /* Bassdrum-04.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBBFE1B0EF78100812981 /* Bassdrum-04.wav */; };
+		F45CBC111B0EF78100812981 /* Bassdrum-05.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBBFF1B0EF78100812981 /* Bassdrum-05.wav */; };
+		F45CBC121B0EF78100812981 /* Cabasa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC001B0EF78100812981 /* Cabasa.wav */; };
+		F45CBC131B0EF78100812981 /* Clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC011B0EF78100812981 /* Clap.wav */; };
+		F45CBC141B0EF78100812981 /* Claves.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC021B0EF78100812981 /* Claves.wav */; };
+		F45CBC151B0EF78100812981 /* Cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC031B0EF78100812981 /* Cowbell.wav */; };
+		F45CBC161B0EF78100812981 /* Crash-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC041B0EF78100812981 /* Crash-01.wav */; };
+		F45CBC171B0EF78100812981 /* Crash-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC051B0EF78100812981 /* Crash-02.wav */; };
+		F45CBC191B0EF78100812981 /* Hat Open.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC071B0EF78100812981 /* Hat Open.wav */; };
+		F45CBC1A1B0EF78100812981 /* Rimshot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC081B0EF78100812981 /* Rimshot.wav */; };
+		F45CBC1B1B0EF78100812981 /* Snaredrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC091B0EF78100812981 /* Snaredrum.wav */; };
+		F45CBC1C1B0EF78100812981 /* Tom H.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC0A1B0EF78100812981 /* Tom H.wav */; };
+		F45CBC1D1B0EF78100812981 /* Tom L.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC0B1B0EF78100812981 /* Tom L.wav */; };
+		F45CBC1E1B0EF78100812981 /* Tom M.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC0C1B0EF78100812981 /* Tom M.wav */; };
+		F45CBC201B0EF7FB00812981 /* hatclosed.wav in Resources */ = {isa = PBXBuildFile; fileRef = F45CBC1F1B0EF7FB00812981 /* hatclosed.wav */; };
 		F4CA0EBC1B0ED60700741790 /* pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F4CA0EBB1B0ED60700741790 /* pop.aiff */; };
 		F4CA0EBE1B0ED6DD00741790 /* 300x250.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CA0EBD1B0ED6DD00741790 /* 300x250.png */; };
 		F4CA0EC01B0EE14300741790 /* DrumMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA0EBF1B0EE14300741790 /* DrumMachineViewController.swift */; };
@@ -53,6 +71,24 @@
 		C4F42C5D1A27EB3C00D38EE3 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		C4F42C5F1A27EB3C00D38EE3 /* metronome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metronome.png; sourceTree = "<group>"; };
 		C4F42C651A27EE3400D38EE3 /* drum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drum.png; sourceTree = "<group>"; };
+		F45CBBFB1B0EF78100812981 /* Bassdrum-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bassdrum-01.wav"; sourceTree = "<group>"; };
+		F45CBBFC1B0EF78100812981 /* Bassdrum-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bassdrum-02.wav"; sourceTree = "<group>"; };
+		F45CBBFD1B0EF78100812981 /* Bassdrum-03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bassdrum-03.wav"; sourceTree = "<group>"; };
+		F45CBBFE1B0EF78100812981 /* Bassdrum-04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bassdrum-04.wav"; sourceTree = "<group>"; };
+		F45CBBFF1B0EF78100812981 /* Bassdrum-05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bassdrum-05.wav"; sourceTree = "<group>"; };
+		F45CBC001B0EF78100812981 /* Cabasa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cabasa.wav; sourceTree = "<group>"; };
+		F45CBC011B0EF78100812981 /* Clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clap.wav; sourceTree = "<group>"; };
+		F45CBC021B0EF78100812981 /* Claves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Claves.wav; sourceTree = "<group>"; };
+		F45CBC031B0EF78100812981 /* Cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cowbell.wav; sourceTree = "<group>"; };
+		F45CBC041B0EF78100812981 /* Crash-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Crash-01.wav"; sourceTree = "<group>"; };
+		F45CBC051B0EF78100812981 /* Crash-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Crash-02.wav"; sourceTree = "<group>"; };
+		F45CBC071B0EF78100812981 /* Hat Open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Hat Open.wav"; sourceTree = "<group>"; };
+		F45CBC081B0EF78100812981 /* Rimshot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rimshot.wav; sourceTree = "<group>"; };
+		F45CBC091B0EF78100812981 /* Snaredrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snaredrum.wav; sourceTree = "<group>"; };
+		F45CBC0A1B0EF78100812981 /* Tom H.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tom H.wav"; sourceTree = "<group>"; };
+		F45CBC0B1B0EF78100812981 /* Tom L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tom L.wav"; sourceTree = "<group>"; };
+		F45CBC0C1B0EF78100812981 /* Tom M.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tom M.wav"; sourceTree = "<group>"; };
+		F45CBC1F1B0EF7FB00812981 /* hatclosed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hatclosed.wav; sourceTree = "<group>"; };
 		F4CA0EBB1B0ED60700741790 /* pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = pop.aiff; sourceTree = "<group>"; };
 		F4CA0EBD1B0ED6DD00741790 /* 300x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300x250.png; sourceTree = "<group>"; };
 		F4CA0EBF1B0EE14300741790 /* DrumMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumMachineViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +144,24 @@
 		C4D3357B1A34B23400E0C5A3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F45CBBFB1B0EF78100812981 /* Bassdrum-01.wav */,
+				F45CBBFC1B0EF78100812981 /* Bassdrum-02.wav */,
+				F45CBBFD1B0EF78100812981 /* Bassdrum-03.wav */,
+				F45CBBFE1B0EF78100812981 /* Bassdrum-04.wav */,
+				F45CBBFF1B0EF78100812981 /* Bassdrum-05.wav */,
+				F45CBC001B0EF78100812981 /* Cabasa.wav */,
+				F45CBC011B0EF78100812981 /* Clap.wav */,
+				F45CBC021B0EF78100812981 /* Claves.wav */,
+				F45CBC031B0EF78100812981 /* Cowbell.wav */,
+				F45CBC041B0EF78100812981 /* Crash-01.wav */,
+				F45CBC051B0EF78100812981 /* Crash-02.wav */,
+				F45CBC071B0EF78100812981 /* Hat Open.wav */,
+				F45CBC081B0EF78100812981 /* Rimshot.wav */,
+				F45CBC091B0EF78100812981 /* Snaredrum.wav */,
+				F45CBC1F1B0EF7FB00812981 /* hatclosed.wav */,
+				F45CBC0A1B0EF78100812981 /* Tom H.wav */,
+				F45CBC0B1B0EF78100812981 /* Tom L.wav */,
+				F45CBC0C1B0EF78100812981 /* Tom M.wav */,
 				F4CA0EBB1B0ED60700741790 /* pop.aiff */,
 				C4D335801A35456600E0C5A3 /* tick.mp3 */,
 			);
@@ -273,15 +327,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45CBC1C1B0EF78100812981 /* Tom H.wav in Resources */,
 				C4D335811A35456600E0C5A3 /* tick.mp3 in Resources */,
 				C4F42C311A27E21900D38EE3 /* Main.storyboard in Resources */,
+				F45CBC1B1B0EF78100812981 /* Snaredrum.wav in Resources */,
 				C4F42C361A27E21900D38EE3 /* LaunchScreen.xib in Resources */,
+				F45CBC101B0EF78100812981 /* Bassdrum-04.wav in Resources */,
+				F45CBC131B0EF78100812981 /* Clap.wav in Resources */,
+				F45CBC1D1B0EF78100812981 /* Tom L.wav in Resources */,
+				F45CBC0E1B0EF78100812981 /* Bassdrum-02.wav in Resources */,
+				F45CBC191B0EF78100812981 /* Hat Open.wav in Resources */,
 				F4CA0EBC1B0ED60700741790 /* pop.aiff in Resources */,
+				F45CBC0D1B0EF78100812981 /* Bassdrum-01.wav in Resources */,
 				C4F42C331A27E21900D38EE3 /* Images.xcassets in Resources */,
+				F45CBC111B0EF78100812981 /* Bassdrum-05.wav in Resources */,
 				C4F42C621A27EB3C00D38EE3 /* metronome.png in Resources */,
+				F45CBC201B0EF7FB00812981 /* hatclosed.wav in Resources */,
+				F45CBC151B0EF78100812981 /* Cowbell.wav in Resources */,
+				F45CBC171B0EF78100812981 /* Crash-02.wav in Resources */,
+				F45CBC0F1B0EF78100812981 /* Bassdrum-03.wav in Resources */,
 				C4F42C601A27EB3C00D38EE3 /* about.png in Resources */,
 				C4F42C661A27EE3400D38EE3 /* drum.png in Resources */,
+				F45CBC121B0EF78100812981 /* Cabasa.wav in Resources */,
+				F45CBC161B0EF78100812981 /* Crash-01.wav in Resources */,
 				F4CA0EBE1B0ED6DD00741790 /* 300x250.png in Resources */,
+				F45CBC1E1B0EF78100812981 /* Tom M.wav in Resources */,
+				F45CBC141B0EF78100812981 /* Claves.wav in Resources */,
+				F45CBC1A1B0EF78100812981 /* Rimshot.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

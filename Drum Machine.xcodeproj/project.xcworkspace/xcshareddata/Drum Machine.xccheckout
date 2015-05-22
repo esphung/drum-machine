@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>05D14918-485F-41F6-816F-A11AABFEB01B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Drum Machine</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>011EE28EA1D06524C92F7702796CF5B192D2C4AB</key>
 		<string>https://github.com/esphung/drum-machine.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Drum Machine.xcodeproj</string>
+	<string>Drum Machine.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>011EE28EA1D06524C92F7702796CF5B192D2C4AB</key>

@@ -7,5 +7,5 @@
 //
 
 protocol DrumMachineDelegate {
-    func padHit()
+    //func padHit()
 } // end drum machine delegate
